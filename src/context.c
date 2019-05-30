@@ -21,6 +21,7 @@
  * Use a device to send and receive messages.
  */
 
+#define SMP_ENABLE_STATIC_API
 #include "context.h"
 #include "libsmp-private.h"
 #include <stdlib.h>

@@ -40,7 +40,7 @@ LIBSMP_STATIC_FILENAME = 'libsmp-static.h'
 STATIC_GEN_MAP = [
     ('src/buffer.h', 'SmpBuffer', 'SmpStaticBuffer'),
     ('src/context.h', 'SmpContext', 'SmpStaticContext'),
-    ('include/libsmp.h', 'SmpMessage', 'SmpStaticMessage'),
+    ('src/libsmp-private.h', 'SmpMessage', 'SmpStaticMessage'),
     ('src/serial-protocol.h', 'SmpSerialProtocolDecoder',
         'SmpStaticSerialProtocolDecoder'),
     ]
