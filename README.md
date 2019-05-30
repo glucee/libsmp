@@ -108,4 +108,11 @@ It is possible to export this library for the Arduino IDE, but the settings will
 be global for all your Arduino sketches. You will set up these settings during
 the export. To perform the export, please run the python script
 `export-arduino-lib.py` located in the `scripts` subfolder with python 3
-(or higher). Then you can import the resulting zip file into your Arduino IDE.
+(or higher). Then you can import the resulting zip file into your Arduino IDE. This
+repo has already provided a zip file with the default setting in scripts folder.
+
+## Notes about Platformio
+
+This repo has already provided a zip file with the default setting in scripts folder.
+You could add it in your platformio.ini:
+libsmp=https://github.com/glucee/libsmp/raw/master/scripts/libsmp.zip
